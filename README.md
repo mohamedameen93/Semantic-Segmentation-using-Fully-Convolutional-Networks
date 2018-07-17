@@ -4,6 +4,10 @@ In this project, we'll construct a fully convolutional neural network based on t
 ## The Model
 A pre-trained VGG-16 network was converted to a fully convolutional network by converting the final fully connected layer to a 1x1 convolution and setting the depth equal to the number of desired classes (in this case, two: road and not-road).
 
+<figure>
+ <img src="Arch.png" width="1379" height="644" alt="MPC Equations" align="middle" />
+</figure>
+
 ## Results
 Run the following command to run the project:
 ```
